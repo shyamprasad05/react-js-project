@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#nav{
+    height: 70px;
+    width: 100%;
+    border: 1px solid;
+    background-color: beige;
+    /* background-color: aqua; */
+    box-shadow: 0px 0px 5px red;
+
+}
+#nav>ol{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#nav>ol{
+    list-style-type:none;
+}
+#nav>ol>li>a{
+    text-decoration: none;
+    color: aliceblue;
+    text-shadow: 0px 0px 5px blue;
+}
+#createuser{
+    border: 1px solid black;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    align-items: center;
+}
+#createuser>table{
+    border: 1px solid black;
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px aqua;
+   
+}
+#createuser>table label{
+   
+    margin-left: 10px;
+  
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#createuser>table input{
+    border: none;
+    border-bottom: 1px solid;
+
+
+}
+#createuser>table input:focus{
+    outline: none;
+}
+#users{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    background: linear-gradient(aqua,white);
+}
+#cards{
+    height: 200px;
+    width: 200px;
+   padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 10px;
+    box-shadow: 0px 0px 5px red;
+}
+#cards>table td{
+    padding: 5px;
+}
+#cards td>button{
+    height: 30px;
+    width: 70px;
+    
+    margin-left: 5px;
+    background: transparent;
+    background-color: white;
+    display: inline-block;
+    border-radius: 20px;
+}
